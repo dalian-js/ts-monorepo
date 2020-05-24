@@ -1,5 +1,5 @@
 {
-  "name": "@acme/cli",
+  "name": "@sagasw/cli",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -20,10 +20,10 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@acme/core": "1.0.0"
+    "@sagasw/core": "1.0.0"
   },
   "devDependencies": {
-    "@acme/tools": "0.0.1"
+    "@sagasw/tools": "0.0.1"
   },
   "tslint": {
     "extends": "../../tslint.json"

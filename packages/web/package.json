@@ -1,5 +1,5 @@
 {
-  "name": "@acme/web",
+  "name": "@sagasw/web",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -21,10 +21,12 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@acme/api": "1.0.0"
+    "@sagasw/api": "1.0.0"
   },
   "devDependencies": {
-    "@acme/tools": "0.0.1"
+    "@sagasw/tools": "0.0.1",
+    "webpack": "4.43.0",
+    "tslint": "6.1.2"
   },
   "tslint": {
     "extends": "../../tslint.json"

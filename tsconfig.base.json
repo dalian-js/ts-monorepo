@@ -11,7 +11,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "paths": {
-      "@acme/*": ["./*/src"]
+      "@sagasw/*": ["./*/src"]
     }
   }
 }

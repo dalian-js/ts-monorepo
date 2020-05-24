@@ -1,5 +1,5 @@
 {
-  "name": "@acme/core",
+  "name": "@sagasw/core",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -20,11 +20,12 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "ramda": "^0.26.1"
+    "ramda": "0.27.0",
+    "lodash": "4.17.15"
   },
   "devDependencies": {
-    "@acme/tools": "0.0.1",
-    "tslint-config-prettier": "^1.18.0"
+    "@sagasw/tools": "0.0.1",
+    "tslint-config-prettier": "1.18.0"
   },
   "tslint": {
     "extends": "../../tslint.json"

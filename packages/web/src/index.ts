@@ -1,4 +1,4 @@
-import { doubleNumbers } from '@acme/api';
+import { doubleNumbers } from '@sagasw/api';
 
 // tslint:disable no-console
 

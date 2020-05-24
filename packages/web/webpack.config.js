@@ -1,6 +1,4 @@
 const path = require('path');
-const ProgressPlugin = require('webpack/lib/ProgressPlugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -28,30 +26,6 @@ module.exports = {
         loader: 'ts-loader',
         options: { projectReferences: true },
       },
-      {
-        test: /\.js$/,
-        use: ['source-map-loader'],
-        enforce: 'pre',
-      },
-      {
-        test: /\.css$/,
-        use: ['to-string-loader', 'css-loader', 'postcss-loader'],
-      },
-      {
-        test: /\.png$/,
-        use: 'url-loader?mimetype=image/png',
-      },
-      {
-        test: /\.html$/,
-        use: 'raw-loader',
-      },
     ],
   },
-
-  plugins: [
-    new ProgressPlugin(),
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
 };

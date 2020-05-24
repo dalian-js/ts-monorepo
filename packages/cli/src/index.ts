@@ -1,4 +1,4 @@
-import { doubleNumbers } from '@acme/api';
+import { doubleNumbers } from '@sagasw/api';
 
 export const run = () => {
   const value = doubleNumbers([1, 2, 3]);
